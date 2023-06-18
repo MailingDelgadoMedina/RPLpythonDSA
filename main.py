@@ -7,4 +7,10 @@
 
 #Example 1
 for i in range(10):
-  print("Hello World")
+  print(i + 1, "Hello World")
+
+#Example 2
+for i in range(3):
+    num =  eval(input('Enter a number: '))
+    print('The square of your number is ', num + num)
+print('The loop is done!')
